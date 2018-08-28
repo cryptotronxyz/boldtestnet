@@ -118,8 +118,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  128;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  53940;
-const int      RPC_DEFAULT_PORT                              =  53941;
+const int      P2P_DEFAULT_PORT                              =  43940;
+const int      RPC_DEFAULT_PORT                              =  43941;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -138,9 +138,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "";
 
 const char* const SEED_NODES[] = {
-	"seed1.boldprivate.network:53940",
-	"seed2.boldprivate.network:53940",
-	"pool.boldprivate.network:53940"
+	"144.202.28.70:43940",
+	"140.82.40.134:43940"
 };
 
 struct CheckpointData {
@@ -149,9 +148,7 @@ struct CheckpointData {
 };
 
 const CheckpointData CHECKPOINTS[] = {
-	{ 2000, "72e998c99196037b05dcf6e7573d8c0febd1f650f70c013e44ea144b416f10f8"}, // 2k
-	{ 20000, "63a2c322d0179c5e44243091ea2fea664881a0291037590ac15b534c216e9467"}, // 20k
-	{ 50000, "c4995fb8530af096b5923775988daa07b3eef80cd183f209374574264faa226a"} // 50k
+	{ 200000, "88ea98c99196037b05dcf6e7573d8c0febd1f650f70c013e44ea144b416f10f8"}
 };
 }
 
